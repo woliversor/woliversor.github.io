@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Meu site no GitHub Pages</title>
-  </head>
-  <body>
-    <h1>Site do William</h1>
-    <p>GitHub Pages funcionando!</p>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Oliveira</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #38bdf8;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #e2e8f0;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #38bdf8;
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>William Oliveira</h1>
+  <p>Infraestrutura | Cibersegurança | Automação</p>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#skills">Skills</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="sobre">
+  <h2>Sobre mim</h2>
+  <div class="card">
+    <p>
+      Profissional de TI com foco em infraestrutura, cibersegurança e automação.
+      Experiência com ambientes Linux, virtualização, redes e implementação de soluções de segurança.
+    </p>
+
+    <p>
+      Atualmente estudando e desenvolvendo projetos práticos voltados para Bug Bounty, SOC e automação de processos.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul>
+      <li>Linux (Ubuntu / Servidores)</li>
+      <li>Virtualização (KVM, Proxmox, VMware)</li>
+      <li>Redes e Segurança</li>
+      <li>Wazuh, SIEM, SOC</li>
+      <li>Automação com Bash / Ansible</li>
+      <li>Web Security / Bug Bounty</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+
+  <div class="card">
+    <h3>🔐 SOC Open Source</h3>
+    <p>Implementação de ambiente com Wazuh, TheHive, Cortex e MISP.</p>
+  </div>
+
+  <div class="card">
+    <h3>☁️ Cluster de Virtualização</h3>
+    <p>Deploy automatizado de cluster com múltiplos nós usando Ansible.</p>
+  </div>
+
+  <div class="card">
+    <h3>📺 Web TV</h3>
+    <p>Servidor de streaming contínuo estilo TV utilizando ferramentas open source.</p>
+  </div>
+
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="card">
+    <p>Email: william@email.com</p>
+    <p>LinkedIn:</p>
+    <a class="btn" href="https://www.linkedin.com/in/woliversor/" target="_blank">
+      Acessar LinkedIn
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 William Oliveira</p>
+</footer>
+
+</body>
 </html>
